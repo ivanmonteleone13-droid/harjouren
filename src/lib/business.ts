@@ -1,7 +1,8 @@
 export const business = {
   name: "Hårjouren",
   tagline: "Color & cuts near the cathedral",
-  description: "Personal full-service salon near the cathedral specializing in color, cuts, and balayage.",
+  description:
+    "Varmt välkomna till Hårjouren — personlig fullservice-salong vid domkyrkan med fokus på färg, klippning, slingor och balayage på S:t Eriks torg 4.",
   category: "Hair Salon",
   address: {
     street: "S:t Eriks torg 4",
@@ -9,19 +10,22 @@ export const business = {
     city: "Uppsala",
     country: "Sverige",
   },
-  phone: "018-13 28 00",
-  phoneLink: "tel:+4618132800",
+  phone: "018-13 28 94",
+  phoneLink: "tel:+4618132894",
   email: null as string | null,
   emailLink: null as string | null,
   bookingUrl: "https://www.bokadirekt.se/places/harjouren-46034",
   bookingLabel: "Boka på Bokadirekt",
-  facebookUrl: null as string | null,
-  instagramUrl: null as string | null,
+  websiteUrl: "https://www.harjouren.se/" as string | null,
+  heroImage: "/images/hero.jpg",
+  aboutImage: "/images/gallery-2.jpg",
+  facebookUrl: "https://www.facebook.com/harjouren" as string | null,
+  instagramUrl: "https://instagram.com/harjouren" as string | null,
   owner: "Hårjouren",
   rating: 4.9,
   reviewCount: 911,
   foundedYear: 2010,
-  coordinates: { lat: 59.8588, lng: 17.6386 },
+  coordinates: { lat: 59.8585, lng: 17.6351 },
   hours: {
     note: "Ring gärna innan besök.",
     regular: [
@@ -42,8 +46,8 @@ export const business = {
   ],
   usps: [
     {
-      title: "Erfarna stylister",
-      description: "Professionell klippning och styling hos Hårjouren.",
+      title: "Färg & balayage",
+      description: "Specialister på slingor, helfärg, balayage och nyansering vid domkyrkan.",
     },
     {
       title: "Centralt läge",
@@ -106,31 +110,52 @@ export const business = {
     },
   ],
   gallery: [
-    { id: 1, label: "Styling", before: "from-[#4C1D95] to-[#7C3AED]", after: "from-[#EC4899]/40 to-[#7C3AED]" },
-    { id: 2, label: "Behandling", before: "from-[#7C3AED] to-[#4C1D95]", after: "from-[#EC4899]/30 to-[#4C1D95]" },
-    { id: 3, label: "Resultat", before: "from-[#4C1D95] to-[#7C3AED]/80", after: "from-[#EC4899] to-[#7C3AED]/50" },
-    { id: 4, label: "Salong", before: "from-[#7C3AED]/90 to-[#4C1D95]", after: "from-[#EC4899]/50 to-[#EC4899]" },
-    { id: 5, label: "Detalj", before: "from-[#4C1D95] to-[#EC4899]/20", after: "from-[#7C3AED] to-[#EC4899]/35" },
-    { id: 6, label: "Atmosfär", before: "from-[#7C3AED] to-[#EC4899]/25", after: "from-[#EC4899]/60 to-[#4C1D95]" },
+    { id: 1, label: "Salongen", image: "/images/gallery-1.jpg" },
+    { id: 2, label: "Styling", image: "/images/gallery-2.jpg" },
+    { id: 3, label: "Färg & slingor", image: "/images/gallery-3.jpg" },
+    { id: 4, label: "Balayage", image: "/images/gallery-4.jpg" },
+    { id: 5, label: "Resultat", image: "/images/gallery-5.jpg" },
+    { id: 6, label: "Atmosfär", image: "/images/gallery-6.jpg" },
   ],
   testimonials: [
     {
-      text: "Fantastisk upplevelse hos Hårjouren. Personalen var professionell och resultatet överträffade förväntningarna.",
-      author: "Kundrecension",
-      source: "Offentligt omdöme, parafraserat",
+      text: "Alltid lika proffsig, fint hårresultat och trevligt bemötande ❤️",
+      author: "Emilia F.",
+      source: "Bokadirekt",
+      sourceUrl: "https://www.bokadirekt.se/places/harjouren-46034",
       rating: 5,
+      date: "2026-06-12",
     },
     {
-      text: "Rekommenderar Hårjouren varmt. Snabb service, trevligt bemötande och bra kvalitet till rimligt pris.",
-      author: "Kundrecension",
-      source: "Offentligt omdöme, parafraserat",
+      text: "Snabb och elegant behandling och gott kaffe med exklusiv choklad.",
+      author: "Roger G.",
+      source: "Bokadirekt",
+      sourceUrl: "https://www.bokadirekt.se/places/harjouren-46034",
       rating: 5,
+      date: "2026-06-06",
+    },
+    {
+      text: "Alltid såå nöjd hos Fia",
+      author: "Carina A.",
+      source: "Bokadirekt",
+      sourceUrl: "https://www.bokadirekt.se/places/harjouren-46034",
+      rating: 5,
+      date: "2026-06-05",
+    },
+    {
+      text: "Alltid lyhörd, snabb,alltid nöjd.",
+      author: "Agneta S.",
+      source: "Bokadirekt",
+      sourceUrl: "https://www.bokadirekt.se/places/harjouren-46034",
+      rating: 5,
+      date: "2026-06-05",
     },
   ],
   about: {
     headline: "Om Hårjouren",
     paragraphs: [
-      "Personal full-service salon near the cathedral specializing in color, cuts, and balayage.",
+      "Här står du som kund i fokus — vi vill att du ska få en så bra upplevelse som möjligt. Läs gärna under \"mer info\" på våra behandlingar så du bokar rätt tjänst med rätt tidsåtgång.",
+      "Vi erbjuder klippning, färg, slingor, balayage och nyansering i en personlig salongsmiljö vid domkyrkan. Ibland är yorkshireterriern Mollie på plats i salongen.",
     ],
   },
   faq: [
@@ -140,7 +165,7 @@ export const business = {
     },
     {
       question: "Hur bokar jag tid hos Hårjouren?",
-      answer: "Boka via Bokadirekt eller ring 018-13 28 00.",
+      answer: "Boka via Bokadirekt eller ring 018-13 28 94.",
     },
     {
       question: "Vad säger kunder om Hårjouren?",
